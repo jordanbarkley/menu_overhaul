@@ -1,0 +1,34 @@
+quick notes
+/////////
+
+
+// Filetable start
+// 0x1AC870	in ROM
+
+// Filetable entry length
+// 0xC
+
+// Filetable entry format
+// ABBBBBBB CCCCDDDD EEEEFFFF
+// A - ?0000000, ? =  bool isCompressed
+// B - offset from end of file table (hardcoded ROM address, 0x1B2C6C)
+// C - filetabl_offset / 4
+// D - compressed_size / 4
+// E - resource_offset / 4
+// F - decompressed_size / 4
+
+file 0x103 or 259 - peach's castle
+file table start + (0x103 * 0xC)
+file table start + 0xC24
+
+file table entry
+= 0x 1AD494
+
+8048D960 00260025 00050030
+
+xA - 8, isCompressed
+xB - 048D960, offset from fietable end = 0x6405CC
+C - 0026, filetable offset = 0x98
+xD - 0025, compressed_size = 0x94
+E - 0005, resource_offset = 0x14
+xF - 0030, decompressed_size = 0xC0

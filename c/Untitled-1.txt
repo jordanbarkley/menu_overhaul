@@ -1,0 +1,18 @@
+            if (chip->state == css_CHIP_MOVING) {
+                // get the difference in pixels
+                differenceX = hand->x - chip->x;
+                differenceY = hand->y - chip->y;
+
+                // make sure the difference is positive
+                if (differenceX < 0) {
+                    differenceX *= -1;
+                }
+
+                if (differenceY < 0) {
+                    differenceY *= -1;
+                }
+
+                if (differenceX <= css_HAND_CHIP_TOLERANCE && differenceY <= css_HAND_CHIP_TOLERANCE) {
+                    chip->state = css_CHIP_HELD_1 + i;
+                    hand->state = css_HAND_HOLDING_1 + i;
+                }

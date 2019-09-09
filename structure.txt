@@ -1,0 +1,88 @@
+
+
+Main Menu
+    Adventure > (Name for Old 1P Mode With Co-Op?)
+    Versus >
+    Options >
+    Data >
+    Credits >
+
+    Adventure
+        Classic (1P Game) >
+        Training >
+        Break the Targets >
+        Board the Platforms >
+
+            Classic
+                New CSS with 2 Slots for Optional Co-Op. No Computers Selectable
+
+            Training
+                New CSS with 4 Slots
+            
+            Break the Targets, Board the Platforms
+                New CSS with 4 Slots for Optional Co-Op. No Computers Selectable
+
+
+    Versus
+        Standard >
+        Tournament >
+        Special >
+
+            Standard
+                Fight >
+                Mode (STOCK, TIME)
+                Time Limit (1 MIN - 99 MIN, INFINITY)
+                Stocks (1 - 99)
+                Damage Handicap (OFF, ON, AUTO)
+                Stock Handicap (OFF, ON, AUTO)
+                Stage Select (OFF, LOSER'S CHOICE, WINNER' CHOICE, ON)
+                Damage Multiplier (.5 - 2.0)
+                Item Switch >
+                Stage Switch >
+                Music Switch >
+                    
+                    Fight
+                        New CSS with 4 Slots
+                    
+                    Item Switch
+                        Item Appearance (NONE, ARE ITEMS ON?, LOW, MEDIUM, HIGH, FRANTIC)
+                        <Item Name> (OFF, ON)
+
+                    Stage Switch
+                        <Stage Name> (OFF, ON)
+
+                    Music Switch
+                        <Stage Name> (OFF, ON)
+
+            Tournament
+                New CSS with 4 Slots. Only includes tournament characters and
+                tournament stages
+
+            Special
+                Tiny Fight
+                Giant Fight
+                King of the Hill
+                Invisible
+                Etc.
+
+    Options
+        AI (DEFAULT, IMPRVOED)
+        Cinematic Camera (OFF, ON, RANDOM)
+        Color Overlays (OFF, ON)
+        Combo Meter (DEFAULT, WITH WALL BOUNCES, WITH WALL BOUNCES AND GRABS)
+        Flash On Z-Cancel (OFF, ON)
+        Hitbox Dispaly (OFF, ON)
+        Hold to Pause (OFF, ON)
+        Results Screen (SKIP, SHOW)
+        Salty Runback (OFF, ON)
+        Screen Adjust >
+        Sounds (MONO, STEREO)
+        Spawns (DEFAULT, SINGLES NEUTRAL, SINGLES AND DOUBLES NEUTRAL)
+
+    Data
+        Characters >
+        VS Records > 
+        Sound Test > 
+
+    Credits
+        (Names Here)
